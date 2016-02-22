@@ -21,6 +21,9 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
+#
+banner LOCAL
+
 # HIROJI KIMURA 
 export HISTFILESIZE=
 export HISTSIZE=
