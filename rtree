@@ -1,0 +1,1 @@
+tree -I "tmp|test|vendor|public|lib|log|config|bin|KIMURA_STUDY"

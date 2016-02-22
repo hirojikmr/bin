@@ -1,0 +1,6 @@
+#!/bin/bash
+export ENTITY=$1
+export C="$1s_controller.rb"
+export V="app/views/$ENTITY"
+alias c="fvi $C"
+alias v="vi app/views/$1s/"
