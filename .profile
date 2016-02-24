@@ -27,3 +27,4 @@ banner LOCAL
 # HIROJI KIMURA 
 export HISTFILESIZE=
 export HISTSIZE=
+alias grep="grep --color=always"
