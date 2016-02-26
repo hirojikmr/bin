@@ -1,1 +1,9 @@
-find ./ -name "*$1*" -exec vim {} \;
+#!/bin/bash
+
+if [ "$#" -eq 1 ]; then
+  find ./ -name "*$1*" -exec vim {} \;
+elif [ "$#" -eq 2 ]; then
+  DIR=$(find . -type d -name "*$1*")
+  find $DIR -name "*$2*" -exec vim {} \;
+fi
+

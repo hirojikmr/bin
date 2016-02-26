@@ -1,0 +1,6 @@
+#!/bin/bash
+
+while :
+do
+  ssh -i 2016-02-15_c4large.pem ubuntu@mysql.momox.net
+done
